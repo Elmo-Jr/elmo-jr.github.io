@@ -4,9 +4,13 @@ header {
     background-color: #1291B3;
     border-bottom: 10px solid #000;
     padding: 10px 20px;
-
 }
 
+body{
+    background-image: url("https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9b2a30c8-40ee-4458-8ca5-fbd5ac73202a/port.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210427%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210427T184034Z&X-Amz-Expires=86400&X-Amz-Signature=8144d5d005ce304d3ef20fac0118160bea210ba51acfc749b7265b373939ebbf&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22port.jpeg%22");
+    background-repeat: no-repeat;
+    background-size: cover
+}
 nav {
 text-align: right;
 }
@@ -28,18 +32,4 @@ a::before {
     height: 10px;
     width: 10px;
     margin-right: 10px;
-}
-
-
-#button {
-    display: inline-block;
-    background-color: #FFB800;
-    box-shadow: 5px 5px 0px #000000;
-    padding: 18px 20px;
-    margin-right: 0;
-}
-
-#button:hover {
-    cursor: pointer;
-    transform: scale(1.1);
 }
