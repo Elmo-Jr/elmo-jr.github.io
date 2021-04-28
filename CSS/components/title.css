@@ -1,28 +1,16 @@
-.main-title {
-    display: inline-block;
-    background-color: #3A4042;
-    box-shadow: 10px 10px 0px #000000;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 110px;
-    margin-left: 105px;
+.title {
+    color: #FFB800;
     font-family: 'Bungee', sans-serif;
     font-weight: 400;
+    font-size: 50px;
     line-height: 60px;
     text-shadow: 4px 4px 0px #000000;
-;
-}
-
-.title {
-    margin-left: 115px;
-    margin-right: 115px;
-    color: #FFB800;
-    font-size: 50px;
 }
 
 .subtitle {
-    margin-left: 63px;
-    margin-right: 63px;
+    font-family: 'Bungee', sans-serif;
     font-size: 40px;
     color: #fff;
+    line-height: 48px;
+    text-shadow: 4px 4px 0px #000000;
 }
