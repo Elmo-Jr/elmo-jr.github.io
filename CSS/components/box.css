@@ -1,4 +1,4 @@
-.box-title {
+.box {
     display: inline-block;
     background-color: #3A4042;
     box-shadow: 10px 10px 0px #000000;
@@ -9,6 +9,6 @@
     font-family: 'Bungee', sans-serif;
 }
 
-.box-title .title {
+.box .title {
     margin-bottom: 15px;
 }
