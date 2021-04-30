@@ -2,7 +2,7 @@
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
-        <link rel="shortcut icon" href="assets/img/elmopixel.png">
+        <link rel="shortcut icon" href="assets/img/logo.png">
         <title>Elmo Junior</title>
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="CSS/reset.css">
         <link rel="stylesheet" href="CSS/components/header.css">
         <link rel="stylesheet" href="CSS/components/action.css">
+        <link rel="stylesheet" href="CSS/components/banner.css">
         <link rel="stylesheet" href="CSS/components/title.css">
         <link rel="stylesheet" href="CSS/components/subtitle.css">
         <link rel="stylesheet" href="CSS/components/button.css">
@@ -22,7 +23,7 @@
         <header class="header">
             <img src="assets/img/logo.png" alt="Avatar do Elmo">
 
-            <nav class="navigation">
+            <nav>
                 <a class="action" href="" lang="en">Skills</a>
                 <a class="action" href="">Projetos</a>
                 <a class="action" href="">Sobre</a>
@@ -31,14 +32,18 @@
             </nav>
         </header>
         
-        <div class="box">
-            <h1 class="title">Elmo Junior</h1>
-            <h2 class="subtitle">Frontend Developer</h2>
-        </div>
-        
-        <div class="main-button">
-            <a class="button" id="button" href="" lang="en">Download CV</a>
-            <a class="button" href="">Contatos</a>
-        </div>
+        <section class="banner">
+            <div class="wrapper">
+                <div class="box">
+                    <h1 class="title">Elmo Junior</h1>
+                    <h2 class="subtitle">Frontend Developer</h2>
+                </div>
+                
+                <div class="navigation">
+                    <a class="button" id="button" href="" lang="en">Download CV</a>
+                    <a class="button" href="">Contatos</a>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
