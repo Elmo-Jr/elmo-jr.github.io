@@ -1,0 +1,9 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFB800;
+    height: 730px;
+    border-bottom: 10px solid #1291B3;
+    align-items: center;
+    padding-top: 50px;
+}
