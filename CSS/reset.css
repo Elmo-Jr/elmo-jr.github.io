@@ -16,8 +16,6 @@ time, mark, audio, video, button {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	font-size: 20px;
-    font-family: "Fira Code", Arial, Helvetica, sans-serif;
     font-weight: 500;
     text-decoration: none;
 }
