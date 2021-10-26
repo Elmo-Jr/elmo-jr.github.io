@@ -1,0 +1,19 @@
+.projeto-tec {
+    display: flex;
+    flex-direction: column;
+    background-color: #686e7c;
+    box-sizing: content-box;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px 0px #fff;
+    padding: 20px;
+    
+}
+
+.projeto-tec.-second {
+    background-color: #7C5E99;
+}
+
+.projeto-tec.-third {
+    background-color: #4C5B84;
+}
